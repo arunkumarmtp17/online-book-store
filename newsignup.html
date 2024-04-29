@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEWFORMS</title>
+
+    <link href="style.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <div class="login-form-container">
+      <div id="close-login-btn" class="fas fa-times"></div>
+     
+      <form action="" onsubmit="return validateform()" id="myform" name="myform">
+        <h3>sign up</h3>
+        <span>Username</span>
+        <input
+          type="text"
+          name="name"
+          class="box"
+          placeholder="enter your email"
+          id=""
+        />
+        <span>Email</span>
+        <input
+          type="email"
+          name="email"
+          class="box"
+          placeholder="enter your email"
+          id=""
+        />
+        <span>Phno</span>
+        <input
+          type="number"
+          name="phno"
+          class="box"
+          placeholder="enter your email"
+          id=""
+        />
+        <span>Password</span>
+        <input
+          type="password"
+          name="password"
+          class="box"
+          placeholder="enter your password"
+          id=""
+        />
+        <span>Confirm Password</span>
+        <input
+          type="password"
+          name="password1"
+          class="box"
+          placeholder="enter your password"
+          id=""
+        />
+        <div class="checkbox">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="button" />
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
